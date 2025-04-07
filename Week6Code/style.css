@@ -1,0 +1,50 @@
+h1{
+    color: chocolate;
+    text-align: justify;
+    text-indent: 20px;
+    letter-spacing: 0px;
+    line-height: 2;
+    word-spacing: 50px;
+
+}
+
+p#paragraph{
+    font-size: 50px;
+    color: #00FFFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    color: darkblue;
+    font-weight: bolder;
+}
+
+
+p.uppercase{
+    text-transform: uppercase;
+}
+
+p.lowercase{
+    text-transform: lowercase;
+
+
+}
+p.capitalize{
+    text-transform: capitalize;
+
+}
+
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    line-height: 100px;
+}
+
+
