@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post comment</title>
+</head>
+<body>
+    <h2>Post a Comment</h2>
+    <form action="post_comment.php" method="POST">
+    <label>Your Name:</label><br>
+    <input type="text" name="username" required><br><br>
+
+    <label>Comment:</label><br>
+    <textarea name="comment_text" rows="5" cols="40" required></textarea><br><br>
+
+    <input type="submit" value="Post Comment">
+    </form>
+
+    <p>
+        <a href="login.html">Login to view your comments</a>
+        <a href="register.html">Register</a>
+    </p>
+</body>
+</html>
